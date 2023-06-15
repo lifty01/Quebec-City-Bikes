@@ -13,6 +13,19 @@ Afterwards, I made some basic graphs with the matplotlib package available in py
 ## Results
 The results led me to conclude that I did not have a strong model. Even just based on the graphs, it was easy to see that there wasn’t really a strong relation between the variables. The results of the model also confirmed that the correlation was weak.
 
+(Resubmission):
+x: total number of bike slots, number of available bikes
+y: total number of park results within 1000m of a given bike station
+
+Adjusted R-squared: Our model gives us a value of 0.029 which means that the model only explains 2.9% of the variance in the number of park results, according to the total number of bike slots and the number of available bikes. The model based on this combination of variables has very little predictive value.
+
+p-value: The p-values for both independent variables are above the 0.05 threshold. This means that the values from my independent variables are not statistically significant and should actually not be considered for this specific model. It is just doubling down on the result of the adjusted R-squared value, further supporting that there is little linking the independent variables to the dependent one.
+
+coeff: Both independent variables affect the dependent variable positively. 
+
+In conclusion, the model is bad, meaning it’s not a really good fit for the variables because there isn’t a significant link or impact on the dependent variable based on the independent ones. While there can be some link given the positive nature of the coefficient value, the adjusted R-squared value and the p-values for each variable indicates that it is only a very little link.
+
+
 ## Challenges 
 The challenges for me were about digging through nested json files. It felt like there might have been some information that was buried in the json files, that would have been a bit more difficult to extract and use.
 I also had trouble figuring out how to join dataframes, as the Yelp and Foursquare APIs both returned dataframes within a list. I ended up just extracting the desired information and appending it to my main dataframe and only using that single one for the rest of the project.
