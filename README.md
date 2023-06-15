@@ -13,7 +13,7 @@ Afterwards, I made some basic graphs with the matplotlib package available in py
 ## Results
 The results led me to conclude that I did not have a strong model. Even just based on the graphs, it was easy to see that there wasn’t really a strong relation between the variables. The results of the model also confirmed that the correlation was weak.
 
-(Resubmission):
+(REWRITE):
 x: total number of bike slots, number of available bikes
 y: total number of park results within 1000m of a given bike station
 
